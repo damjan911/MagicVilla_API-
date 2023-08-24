@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla_VillaAPI", "MagicVilla_VillaAPI\MagicVilla_VillaAPI.csproj", "{EB2751BB-5683-4D59-B088-B598F8E334AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla_VillaAPI", "MagicVilla_VillaAPI\MagicVilla_VillaAPI.csproj", "{EB2751BB-5683-4D59-B088-B598F8E334AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.DataAccess", "MagicVilla.DataAccess\MagicVilla.DataAccess.csproj", "{53F7037E-0E51-4305-A870-C2204AFD629E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.Domain", "MagicVilla.Domain\MagicVilla.Domain.csproj", "{F5920722-07F1-4035-A43D-B8D8D6A64ABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.DTOs", "MagicVilla.DTOs\MagicVilla.DTOs.csproj", "{CE74E297-9A2A-4E8C-8290-909311932DE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.Helpers", "MagicVilla.Helpers\MagicVilla.Helpers.csproj", "{A37B7AEE-21E8-40BA-AFB0-4D3611466479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.Mappers", "MagicVilla.Mappers\MagicVilla.Mappers.csproj", "{2E97C8FF-A3E5-4653-8848-F33CC610A537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla.Services", "MagicVilla.Services\MagicVilla.Services.csproj", "{333D5FFB-8523-402A-8AA9-C40E409E93A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,30 @@ Global
 		{EB2751BB-5683-4D59-B088-B598F8E334AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB2751BB-5683-4D59-B088-B598F8E334AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB2751BB-5683-4D59-B088-B598F8E334AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F7037E-0E51-4305-A870-C2204AFD629E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F7037E-0E51-4305-A870-C2204AFD629E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F7037E-0E51-4305-A870-C2204AFD629E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F7037E-0E51-4305-A870-C2204AFD629E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5920722-07F1-4035-A43D-B8D8D6A64ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5920722-07F1-4035-A43D-B8D8D6A64ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5920722-07F1-4035-A43D-B8D8D6A64ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5920722-07F1-4035-A43D-B8D8D6A64ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE74E297-9A2A-4E8C-8290-909311932DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE74E297-9A2A-4E8C-8290-909311932DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE74E297-9A2A-4E8C-8290-909311932DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE74E297-9A2A-4E8C-8290-909311932DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37B7AEE-21E8-40BA-AFB0-4D3611466479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37B7AEE-21E8-40BA-AFB0-4D3611466479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37B7AEE-21E8-40BA-AFB0-4D3611466479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37B7AEE-21E8-40BA-AFB0-4D3611466479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E97C8FF-A3E5-4653-8848-F33CC610A537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E97C8FF-A3E5-4653-8848-F33CC610A537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E97C8FF-A3E5-4653-8848-F33CC610A537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E97C8FF-A3E5-4653-8848-F33CC610A537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{333D5FFB-8523-402A-8AA9-C40E409E93A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333D5FFB-8523-402A-8AA9-C40E409E93A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333D5FFB-8523-402A-8AA9-C40E409E93A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333D5FFB-8523-402A-8AA9-C40E409E93A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
